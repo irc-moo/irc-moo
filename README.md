@@ -2,7 +2,7 @@
 
 ## motive
 
-* Make IRC accessable to less technical people by reducing 'configuration', make setting up a bouncer trivial.
+* Make IRC accessible to less technical people by reducing 'configuration', make setting up a bouncer trivial.
 
 * Improve on UI and UX of current IRC clients
 
