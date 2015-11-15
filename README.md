@@ -6,19 +6,29 @@
 
 * Improve on UI and UX of current IRC clients
 
-## art direction
+## features
 
-* Minimal, intuitive, slack-like
+#### Always online
+Maintain irc connection even when user is not using client.
 
-* Abstract away hostnames (user enters freenode instead of irc.freenode.net)
+#### Infinite logs
+As a side effect of being always online, we can log all messages to enable features such as infinite past scrolling on the clients and searchable logs.
 
-* Abstract away Nickserv and figure out some sensible user registration flow.
+#### Notifications
+As another side effect of being always online, we know when an AFK user receives a private message or a mention.
 
-* Abstract away the status box that shows MOTD. Instead we could have a preference to enable console toggling, or just make it a CMD+Letter hotkey.
+#### Persist User Preferences
+Maintain user preferences such network and channel list on the cloud and bind it to his moo account.
 
-* Also figure out some way to make it easy for some to figure out what network they want to get on and what channels they want to be on
- like suggestions or something.
+#### Channel finding wizard
+There is tons of communities on IRC, let's write an algorithm to index them and sort them in a meaningful way. Perhaps even give them popularity statistics.
 
-## front-end flow
+#### Plugins
+irc-moo clients will be able to detect other irc-moo clients on channels, enabling extra features between them such as:
 
-![front-end-flowchart](http://puu.sh/lmKRX/9953843b65.png)
+* Encrypted p2p communication (completely outside of irc network, p2p!)
+
+* Tic-Tac-Toe game between two irc-moo clients?
+
+#### Simple
+Abscract the ugly details of IRC such as hostname/channels and NickServ with comprehensive GUIs.

@@ -26,7 +26,9 @@ The rest service will be a
 
 #### stack
 * node (lang/framework)
+
 * hapi (HTTP lib)
+
 * sequelize (ORM)
 
 #### load balancing
@@ -39,7 +41,7 @@ AWS code deploy
 AWS EC2
 
 # db service
-The db will store user objects and irc logs. A big requirement is for the irc logs to be efficiently searchable, luckily, postgress supports this out of the box however scaling is still unknown.
+The db will store user objects and irc logs. A big requirement is for the irc logs to be efficiently searchable, luckily, postgress supports this out of the box however scaleability is still unknown.
 
 #### stack
 * postgress (DB)
