@@ -19,12 +19,6 @@
 * Also figure out some way to make it easy for some to figure out what network they want to get on and what channels they want to be on
  like suggestions or something.
 
-## front-end architecture
+## front-end flow
 
-The stack:
-
-* electron
-* redux
-* react
-* re-select
-* flow-type
+![front-end-flowchart](http://puu.sh/lmKRX/9953843b65.png)
