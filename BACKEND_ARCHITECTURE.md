@@ -20,7 +20,7 @@ AWS code deploy
 #### hosting
 AWS EC2
 
-# rest service
+# rest api service
 
 The rest service will be a
 
