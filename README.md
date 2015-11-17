@@ -2,7 +2,9 @@
 
 ## motive
 
-* Make IRC accessible to less technical people by reducing 'configuration', make setting up a bouncer trivial.
+* Make IRC accessible to less technical people by reducing 'configuration'.
+
+* Make tasks like setting up a bouncer trivial.
 
 * Improve on UI and UX of current IRC clients
 
@@ -31,4 +33,4 @@ irc-moo clients will be able to detect other irc-moo clients on channels, enabli
 * Tic-Tac-Toe game between two irc-moo clients?
 
 #### Simple
-Abscract the ugly details of IRC such as hostname/channels and NickServ with comprehensive GUIs.
+Abstract the ugly details of IRC such as hostname/channels and NickServ with comprehensive GUIs.

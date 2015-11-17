@@ -29,8 +29,6 @@ The rest service will be a
 
 * hapi (HTTP lib)
 
-* sequelize (ORM)
-
 #### load balancing
 AWS EBS
 
